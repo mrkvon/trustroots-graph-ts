@@ -1,0 +1,27 @@
+{
+  "name": "trustroots-graph",
+  "version": "1.0.0",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "format": "prettier 'src/**/*.ts' --write",
+    "lint": "eslint . --ext .ts"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^17.0.24",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.6.2",
+    "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^16.0.0",
+    "fs-extra": "^9.0.0"
+  }
+}
